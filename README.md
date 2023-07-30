@@ -1,0 +1,3 @@
+This is the code that was used during the Portland Winter Light Festival 2022 at CETI for the Dynamandala Project.  The controller sent out repeating CC messages, which was interpreted in Unreal Engine to create a audio & visual interactive environment. 
+
+The 'capacitive-based-midi-controller' repo is the precursor to this, with simpler examples for working with the MPR121 capacitive sensor breakout board with the Teensy 3.2 microcontroller.  The Piezo sensors were ultimately not used in the final installation.  
