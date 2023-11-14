@@ -126,7 +126,7 @@ uint16_t currtouchedB = 0;
 const uint8_t numElectrodes = 12; //added by drc
 //MPR121 MIDI output values
 const uint8_t controlNumA[] = {88,88,87,87,13,13,5,5,0,0,3,3}; //Change to #'s stefan is using. 88, 87, 13, 5, 0, 3, 50 is mode shift
-const uint8_t controlNumB[] = {28,29,30,31,20,21,22,23,24,25,26,27}; //Change to #'s stefan is using. 88, 87, 13, 5, 0, 3, 50 is mode shift
+const uint8_t controlNumB[] = {28,29,30,31,20,21,22,23,24,25,26,27}; //26 is triggering weird.  removing it mechanically for now. This wire runs too close to the LEDs, resulting in occasional self-triggering. 
 const uint8_t controlValA[] = {127,0,127,0,127,0,127,0,127,0,127,0}; //Change to #'s stefan is using
 const uint8_t controlValB[] = {127,127,127,127,127,127,127,127,127,127,127,127}; //Change to #'s stefan is using
 uint8_t ElectrodeTouchedA[numElectrodes] = {0,0,0,0,0,0,0,0,0,0,0,0};
